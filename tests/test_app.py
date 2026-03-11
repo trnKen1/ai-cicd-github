@@ -16,7 +16,7 @@ class TestMath:
         assert multiply(2, 4) == 8
         
     def test_multiply_negative(self):
-        assert multiply(-3,-3) == 91 #WRONG
+        assert multiply(-3,-3) == 9
     
     def test_multply_zero(self):
         assert multiply(0, 1) == 0
